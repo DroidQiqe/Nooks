@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:ata.it.solutions.nooks="http://schemas.android.com/apk/res-auto"
+    
+    >
+    <item
+        android:id="@+id/menu3_buscar"
+        android:title="Buscar"
+        android:icon="@drawable/ic_action_search"
+        ata.it.solutions.nooks:showAsAction="ifRoom|collapseActionView"
+        ata.it.solutions.nooks:actionViewClass="android.support.v7.widget.SearchView"/>
+</menu>
